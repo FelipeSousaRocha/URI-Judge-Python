@@ -1,0 +1,27 @@
+def intersec(x1, y1, u1, v1, x2, y2, u2, v2):
+    x,y,u,v = x1,y1,u1,v1
+    if (x2>x):
+        x = x2
+    if (u2<u):
+        u = u2
+    if (y2<y):
+        y = y2
+    if (v2>v):
+        v = v2
+    return x,y,u,v
+
+contador = 1
+n = int(input())
+while n != 0:
+    xb, yb, ub, vb = -10000,10000,10000,-10000
+    for i in range(n):
+        x, y, u, v = map(int, input().split())
+        xb,yb,ub,vb = intersec(xb,yb,ub,vb,x,y,u,v)
+    print('Teste', contador)
+    contador += 1
+    if (xb <= ub and yb >= vb):
+        print(xb,yb,ub,vb)
+    else:
+        print('nenhum')
+    print()
+    n = int(input()
