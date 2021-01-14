@@ -1,0 +1,11 @@
+p, n = map(int , input().split())
+alt = list(map(int, input().split()))
+x = 'YOU WIN'
+for i in range(1,len(alt)):
+    if alt[i] > alt[i-1]:
+        dif = (alt[i]-alt[i-1])
+    else:
+        dif = (alt[i-1]-alt[i])
+    if dif>p:
+        x = "GAME OVER"
+print(x)
