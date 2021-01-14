@@ -1,0 +1,5 @@
+a,w = input().split(" ")
+a = int(a)
+w = int(w)
+p = ((a+w)*(w-a+1))//2
+print(p)
