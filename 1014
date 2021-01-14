@@ -1,0 +1,4 @@
+x = int(input())
+y = float(input())
+r = x/y
+print ("{:.3f}".format(r),"km/l")
