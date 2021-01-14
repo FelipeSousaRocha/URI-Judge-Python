@@ -1,0 +1,12 @@
+while True:
+    try:
+        nl = int(input())
+        vl = list(map(int, input().split()))
+        if max(vl) < 10:
+            print(1)
+        elif max(vl) >= 10 and max(vl) < 20:
+            print(2)
+        elif max(vl) >= 20:
+            print(3)
+    except EOFError:
+        break
