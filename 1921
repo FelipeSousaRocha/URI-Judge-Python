@@ -1,0 +1,3 @@
+n = int(input())
+qc = n*(n-3)//2
+print(qc)
