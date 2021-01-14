@@ -1,0 +1,11 @@
+p1,p2 = input().split(" ")
+p1 = int(p1)
+p2 = int(p2)
+if(p2 <= 2 and p2 >= 0):
+  print("nova")
+elif(p2 <= 100 and p2 >= 97):
+  print("cheia")
+elif(p1<p2):
+  print("crescente")
+else:
+  print("minguante")
