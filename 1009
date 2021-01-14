@@ -1,0 +1,6 @@
+n = str(input())
+sf = float(input())
+tv = float(input())
+sff = tv*(15/100)
+ss = sff+sf 
+print("TOTAL = R$ {:.2f}".format(ss))
