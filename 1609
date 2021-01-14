@@ -1,0 +1,7 @@
+n = int(input())
+cont = 0
+for c in range(0, n):
+    num = int(input())
+    carneiros = list(map(int, input().split()))
+    resultado = set(carneiros)
+    print(len(resultado))
