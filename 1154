@@ -1,0 +1,11 @@
+soma = 0
+qtd = 0
+while True:
+    idade = float(input())
+    if idade < 0:
+        media = float(soma/qtd)
+        break
+    else:
+        soma += idade
+        qtd += 1
+print('{:.2f}'.format(media))
