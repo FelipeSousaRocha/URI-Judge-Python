@@ -1,0 +1,4 @@
+x = int(input())
+y = int(input())
+r = (x*y)/12
+print ("{:.3f}".format(r))
