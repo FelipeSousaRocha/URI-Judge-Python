@@ -1,0 +1,9 @@
+hi,hf = input().split(" ")
+hi = int(hi)
+hf = int(hf)
+if(hi < hf):
+  print("O JOGO DUROU ",((hi-hf)*-1)," HORA(S)",sep="")
+elif(hi>hf):
+  print("O JOGO DUROU ",((24-hi)+hf)," HORA(S)",sep="")
+elif(hi == hf):
+  print("O JOGO DUROU 24 HORA(S)")
