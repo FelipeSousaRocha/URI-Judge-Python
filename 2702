@@ -1,0 +1,22 @@
+frango,bife,massa = input().split()
+frango = int(frango)
+bife = int(bife)
+massa = int(massa)
+
+Pfrango,Pbife,Pmassa = input().split()
+Pfrango = int(Pfrango)
+Pbife = int(Pbife)
+Pmassa = int(Pmassa)
+
+caso1 = 0
+caso2 = 0
+caso3 = 0
+
+if(frango < Pfrango):
+  caso1 = Pfrango - frango 
+if(bife < Pbife):
+  caso2 = Pbife - bife
+if(massa < Pmassa):
+  caso3 = Pmassa - massa
+
+print(caso1 + caso2 + caso3)
