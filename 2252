@@ -1,0 +1,20 @@
+caso = 0
+while True:
+    try:
+        caso += 1
+        n = int(input())
+        l = list(map(float, input().split(" ")))
+        l_ordenada = []
+        for num in l:
+            l_ordenada.append(num)
+        l_ordenada.sort(reverse=True)
+        senha = ''
+        for i in range(n):
+            pos = l.index(l_ordenada[i])
+            l[pos] = True
+            senha += str(pos)
+            
+        print("Caso", str(caso) + ":", senha)
+
+    except EOFError:
+        break
