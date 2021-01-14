@@ -1,0 +1,5 @@
+a,b = input().split(" ")
+a = int(a)
+b = int(b)
+r = a/b
+print("{:.2f}".format(r))
