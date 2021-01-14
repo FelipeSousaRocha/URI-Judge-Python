@@ -1,0 +1,3 @@
+c = int(input())
+b = 4*c
+print(b)
