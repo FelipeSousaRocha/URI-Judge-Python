@@ -1,0 +1,14 @@
+c = 0
+while True:
+    n = int(input())
+    if n == 0:
+        break
+    num = list(map(int, input().split()))
+    c += 1
+    if n != 0:
+        for indice, valor in enumerate(num):
+            i = indice
+            if i+1 == valor:
+                print(f'Teste {c}')
+                print('{}'.format(valor))
+                print('')
