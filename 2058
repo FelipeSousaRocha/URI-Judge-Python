@@ -1,0 +1,3 @@
+l = int(input())
+nl = l-2
+print(nl)
