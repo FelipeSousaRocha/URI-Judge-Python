@@ -1,0 +1,9 @@
+a,b = input().split(" ")
+a = int(a)
+b = int(b)
+dist = a//b
+c,d = input().split(" ")
+c = int(c)
+d = int(d)
+cust = a*c+(d*dist)
+print(cust)
