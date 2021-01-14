@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+x = a+b
+if(x%2 == 0):
+  print("1")
+else:
+  print("0")
