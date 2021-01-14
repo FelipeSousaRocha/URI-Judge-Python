@@ -1,0 +1,11 @@
+n=1
+lista = []
+
+while True:
+    n = int(input())
+    if n==0:
+        break
+    else:
+        for b in range(1,n):
+            print(b,end=' ')
+        print(n,end='\n')
