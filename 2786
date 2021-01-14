@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+tipo1 = (a*b)+(a-1)*(b-1)
+tipo2 = 2*(a-1)+2*(b-1)
+print(tipo1)
+print(tipo2)
