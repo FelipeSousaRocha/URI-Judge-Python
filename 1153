@@ -1,0 +1,7 @@
+num = int(input())
+n = num
+resultado = 1
+while n > 0:
+    resultado *= n
+    n -= 1
+print('{}'.format(resultado))
